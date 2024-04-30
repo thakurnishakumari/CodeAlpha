@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfoli Site</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+
+ <!-- Navigation Bar............. -->
+  <nav>
+   <ul>
+    <li class="navbar"><a href="#project-sec">Projects</a></li>
+    <li class="navbar"><a href="#about">About Me</a></li>
+    <li class="navbar"><a href="#contact-us">Contact Me</a></li>
+    <li class="navbar"><a href="#Resume">Resume </a></li>
+   </ul>
+  </nav>
+     
+<section class="head">
+  <div class="container">
+   <img src="./images/pic.jpg" alt="">
+   <h2>Hi I'm Nisha kumari. I am a Web Developer.</h2>
+  </div>
+</section>
+
+<!-- About me Section...................... -->
+ <section id="about" class="aboutme">
+   <h2 class="h-text">About Me</h2>
+   <div class="aboutsection">
+   <div class="imgsec">
+   <div class="aboutimg"></div>
+   </div>
+ <div class="about-text">
+   <p>Nisha Kumari is a dynamic and driven individual hailing from Gopalganj, Bihar, India. Armed with a Bachelor of Computer Application degree from Maulana Mazharul Haque Arabic and Persian University, she is equipped with a strong foundation in software development. Nisha's journey includes valuable teaching experiences at Apt International School and St. Thomas International School, where she honed her communication, leadership, and computer skills.
+
+    Her proficiency spans across C, HTML, JavaScript, CSS, and web development.</p>
+  </div>
+ </div>
+</section>
+
+<!-- MY project section. -->
+ <section id="project-sec">
+   <div class="project-section">
+     <h2 class="h-text">Landing page</h2>
+   <div class="projects">
+   <div id="sm-project" class="all-project">
+
+ <div class="text">
+  <h3 class="p-name">To do list</h3>
+  <div class="content">
+ <p>Project Description</p>
+ </div>
+   </div>
+ </div>
+
+ <div id="sm-project" class="all-project">
+   <div class="text">
+   <h3 class="p-name">Calculator</h3>
+     <div class="content">
+     <p>Project Description</p>
+  </div>
+   </div>
+ </div>
+
+ <div id="sm-project" class="all-project">
+  <div class="text">
+  <h3 class="p-name">Expense Tracker </h3>
+  <div class="content">
+  <p>Project Description</p>
+ </div>
+ </div>
+</div>
+</section>
+<!-- resume Section...................... -->
+<section id="resume">
+  <h2>Resume</h2>
+  <p>Download my resume <a href="resume.pdf" download>here</a>.</p>
+</section>
+
+<!-- contact form section -->
+<section class="form-container" id="contact-us">
+  <h2 class="contact-h">Contact Me</h2>
+    <p id="form-desc">Use this form to get in touch. I would love to hear you.</p>
+   <form action="" class="contact-form">
+   <div class="form-detail">
+      <label for="name">Name</label>
+      <input type="text" id="yourname" placeholder="Enter Your Name" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subjct" placeholder="Reason your message" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter Your Email" required>
+    </div>
+   <div class="message-text">
+     <label for="message">Message</label>
+     <textarea name="message" id="msg" cols="50" rows="10"></textarea> <br>
+     <button id="sub-btn" type="submit">Sumbit</button>
+   </div>
+</form>
+</section>
+
+
+<!-- This is footer section -->
+ <footer>
+  <div class="footer-container">
+  <div class="copyright">
+  </div>
+   <div class="sicila-media">
+   
+    </div>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
